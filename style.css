@@ -14,6 +14,7 @@ body {
 
 .intro video{
     width: 100%;
+    heigh: 100%;
     object-fit: cover;
 }
 .intro h1{
