@@ -10,7 +10,7 @@ const controller = new ScrollMagic.Controller();
 
 //Scenes
 const scene = new ScrollMagic.Scene({
-    duration: 10000,
+    duration: 20000,
     triggerElement: intro,
     triggerHook: 0
 })
