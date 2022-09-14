@@ -19,7 +19,7 @@ const scene = new ScrollMagic.Scene({
     .addTo(controller);
 
 //Video Animation
-let accelamount = 1;
+let accelamount = 0.2;
 let scrollpos = 0;
 let delay = 0;
 
