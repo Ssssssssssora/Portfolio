@@ -10,7 +10,7 @@ const controller = new ScrollMagic.Controller();
 
 //Scenes
 const scene = new ScrollMagic.Scene({
-    duration: 20000,
+    duration: 50000,
     triggerElement: intro,
     triggerHook: 0
 })
@@ -24,7 +24,7 @@ let scrollpos = 0;
 let delay = 0;
 
 scene.on("update", e => {
-    scrollpos = e.scrollPos / 30;
+    scrollpos = e.scrollPos / 1;
 });
 
 setInterval(() => {
