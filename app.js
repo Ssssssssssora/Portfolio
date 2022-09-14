@@ -19,12 +19,12 @@ const scene = new ScrollMagic.Scene({
     .addTo(controller);
 
 //Video Animation
-let accelamount = 2;
+let accelamount = 1;
 let scrollpos = 0;
 let delay = 0;
 
 scene.on("update", e => {
-    scrollpos = e.scrollPos / 1;
+    scrollpos = e.scrollPos / 30000;
 });
 
 setInterval(() => {
