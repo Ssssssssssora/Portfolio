@@ -21,7 +21,7 @@ const scene = new ScrollMagic.Scene({
 //Video Animation
 let accelamount = 1;
 let scrollpos = 0;
-let delay = 0.5;
+let delay = 10;
 
 scene.on("update", e => {
     scrollpos = e.scrollPos;
