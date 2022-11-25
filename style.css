@@ -6,7 +6,13 @@
 
 body {
     .intro {
-        height:30%;
+        height: 30%;
+    }
+    
+    .intro video {
+        height: 10%;
+        width: 10%;
+        object-fit: cover;
     }
 }
 
