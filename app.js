@@ -25,9 +25,9 @@ scene.on("update", e => {
     console.log(e);
 });
 
-//setInterval(() => {
-    //delay += (scrollpos - delay) * accelamount;
-    //console.log(scrollpos, delay);
+setInterval(() => {
+    delay += (scrollpos - delay) * accelamount;
+    console.log(scrollpos, delay);
 
-    //video.currentTime = scrollpos;
-//}, 33.3);
+    video.currentTime = scrollpos;
+//}, 40);
