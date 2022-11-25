@@ -8,11 +8,11 @@ const controller = new ScrollMagic.Controller();
 //Scenes
 const scene = new ScrollMagic.Scene({
     duration: 132000,
-    triggerElement: intro,
+    triggerElement: intro
     triggerHook: 0
 })
-    .addIndicator();
-    .setPin(intro);
+    .addIndicator()
+    .setPin(intro)
     .addTo(controller);
 
 //Video Animation
