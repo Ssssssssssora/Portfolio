@@ -6,12 +6,3 @@
 
 
 
-body {
-    background-color:black;
-}
-
-.intro video {
-    max-height:100%;
-    max-width:100%;
-    object-fit:cover;
-    }
