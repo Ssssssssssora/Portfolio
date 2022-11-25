@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 
-.intro {
-    height:30%;
+body {
+    .intro {
+        height:30%;
+    }
 }
 
 
