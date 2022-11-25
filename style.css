@@ -11,8 +11,4 @@ body {
     height:100vh;
     }
 
-.intro video{
-    width: 100%;
-    heigh: 100%;
-    object-fit: cover;
 }
