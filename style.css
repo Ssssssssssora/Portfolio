@@ -4,35 +4,15 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: sans-serif;
-}
 
-.intro{
-    
-}
+
+body {
+.intro {
+    height:100vh;
+    }
 
 .intro video{
     width: 100%;
     heigh: 100%;
     object-fit: cover;
-}
-.intro h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-size: 80px;
-    color: White;
-}
-
-section {
-    height: 100vh;
-    color: black
-}
-
-section h1{
-    padding-top: 300px;
-    text-align: center;
-    font-size: 80px;
 }
